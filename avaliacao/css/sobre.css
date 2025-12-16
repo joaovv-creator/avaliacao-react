@@ -1,0 +1,40 @@
+.sobre-container{
+text-align: center;
+}
+.sobre-title{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sobre-text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 700px;
+}
+.sobre-primary{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:green;
+}
+.sobre-segundary{
+  background-color: white;
+  border-radius: 5px;
+  background-color: rgba(188, 248, 188, 0.5);;
+}
+.sobre-paragraph{
+    color:green;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+.linha{
+    width: 150px;
+    height: 3px;
+    background-color: green;
+    margin: 0 auto 40px;
+}
+.sobre-terciary{
+    color:green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

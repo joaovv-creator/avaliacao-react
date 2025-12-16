@@ -4,7 +4,7 @@
 }
 .header-style {
     background-color: var(--corprimaria);
-    width: 100%;
+    width: 700px;
     height: 80px;
     display: flex;
     flex-direction: column;
@@ -25,4 +25,10 @@
 .nav-link{
     text-decoration: none;
     color: white;
+    font-size: 16px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.nav-link:hover {
+  color: #69cc69; 
+  transform: scale(1.1); 
 }

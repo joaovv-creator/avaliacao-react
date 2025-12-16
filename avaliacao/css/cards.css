@@ -1,5 +1,8 @@
 .card-container{
-      justify-content: center;  
+    justify-content: center; 
+    align-content: center; 
+    margin-bottom: 50px;
+      
 }
 
 .card-product-container{
@@ -13,11 +16,13 @@
     border-radius: 8px;
     width: 200px;
     text-align: center;
+    box-shadow: 5px 5px rgb(167, 165, 165);
 }
 .card-text{
-font-size: 30px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color:green;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:green;
+    text-align: center;
 }
 .card-image{
     width: 30%;

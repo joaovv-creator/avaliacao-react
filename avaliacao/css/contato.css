@@ -1,0 +1,37 @@
+.contato{
+    margin-bottom: 20px;
+}
+.formulario{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+.titulo{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.linha{
+    width: 150px;
+    height: 3px;
+    background-color: green;
+    margin: 0 auto 40px;
+}
+.nome-email{
+    width:500px ;
+    height: 50px;
+    background-color: white;
+    border: solid rgb(185, 185, 185) 2px;
+    border-radius: 10px;
+}
+.contato-button{
+    width: 500px;
+    background-color:rgba(245, 115, 64,0.9);
+    height: 50px;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.contato-button:hover{
+    background-color: rgb(243, 28, 0);
+}

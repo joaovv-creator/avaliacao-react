@@ -2,7 +2,7 @@ import  "/css/header.css"
 
 function Header() {
   return (
-    <header className="header-style">
+    <header id="inicio" className="header-style">
         <h3 className="logo-text"> 🥗Restaurante Popular Saudável</h3>
         <nav className="nav-container">
             <a href="#inicio" className="nav-link">Inicio</a>

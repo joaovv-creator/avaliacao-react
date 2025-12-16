@@ -2,7 +2,7 @@ import "/css/Cards.css"
 
 function Cards() {
   return (
-    <div className="card-container">
+    <div id="vantagens" className="card-container">
       <h2 className="card-text">Por que escolher a restaurante Popular Saudável?</h2>
       
       <div className="card-product-container">
